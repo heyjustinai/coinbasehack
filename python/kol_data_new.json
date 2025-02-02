@@ -92,6 +92,14 @@
         "atom": { "mentions": 1 },
         "trump": { "mentions": 1 }
       }
+    },
+    {
+      "id": "Justin TRUMP",
+      "handle": "@testtrumpofficial32",
+      "followers": 271418,
+      "coins": {
+        "trump": { "mentions": 10 }
+      }
     }
   ]
 }
