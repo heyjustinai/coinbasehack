@@ -1,0 +1,97 @@
+{
+  "KOLs": [
+    {
+      "id": "cz_binance",
+      "handle": "@cz_binance",
+      "followers": 9554260,
+      "coins": {
+        "btc": { "mentions": 5 },
+        "bnb": { "mentions": 2 },
+        "eth": { "mentions": 1 },
+        "sol": { "mentions": 1 },
+        "babydoge": { "mentions": 1 }
+      }
+    },
+    {
+      "id": "aixbt_agent",
+      "handle": "@aixbt_agent",
+      "followers": 457605,
+      "coins": {
+        "keys": { "mentions": 3 },
+        "usdc": { "mentions": 2 },
+        "xrp": { "mentions": 2 },
+        "ekb": { "mentions": 2 },
+        "anon": { "mentions": 2 }
+      }
+    },
+    {
+      "id": "justinsuntron",
+      "handle": "@justinsuntron",
+      "followers": 3751008,
+      "coins": {
+        "trx": { "mentions": 2 },
+        "usdd": { "mentions": 5 },
+        "btc": { "mentions": 1 },
+        "btt": { "mentions": 1 },
+        "ht": { "mentions": 1 }
+      }
+    },
+    {
+      "id": "balajis",
+      "handle": "@balajis",
+      "followers": 1122795,
+      "coins": {
+        "btc": { "mentions": 2 },
+        "eth": { "mentions": 1 },
+        "usdc": { "mentions": 1 }
+      }
+    },
+    {
+      "id": "MustStopMurad",
+      "handle": "@MustStopMurad",
+      "followers": 690363,
+      "coins": {
+        "spx": { "mentions": 3 },
+        "giga": { "mentions": 1 },
+        "doge": { "mentions": 1 },
+        "shib": { "mentions": 1 }
+      }
+    },
+    {
+      "id": "blknoiz06",
+      "handle": "@blknoiz06",
+      "followers": 672957,
+      "coins": {
+        "btc": { "mentions": 3 },
+        "sol": { "mentions": 1 },
+        "eth": { "mentions": 1 },
+        "doge": { "mentions": 1 },
+        "shib": { "mentions": 1 }
+      }
+    },
+    {
+      "id": "aeyakovenko",
+      "handle": "@aeyakovenko",
+      "followers": 507502,
+      "coins": {
+        "sol": { "mentions": 3 },
+        "mplx": { "mentions": 1 },
+        "btc": { "mentions": 1 },
+        "eth": { "mentions": 1 },
+        "doge": { "mentions": 1 }
+      }
+    },
+    {
+      "id": "sassal0x",
+      "handle": "@sassal0x",
+      "followers": 271418,
+      "coins": {
+        "eth": { "mentions": 5 },
+        "btc": { "mentions": 2 },
+        "ldo": { "mentions": 1 },
+        "atom": { "mentions": 1 },
+        "trump": { "mentions": 1 }
+      }
+    }
+  ]
+}

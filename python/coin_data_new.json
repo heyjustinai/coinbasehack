@@ -1,0 +1,64 @@
+{
+  "coins": {
+    "eth": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "contract_address": "0x2eaa73bd0db20c64f53febea7b5f5e5bccc7fb8b"
+    },
+    "babydoge": {
+      "name": "Baby Doge Coin",
+      "symbol": "BabyDoge",
+      "contract_address": "0xac57de9c1a09fec648e93eb98875b212db0d460b"
+    },
+    "keys": {
+      "name": "Keys Token",
+      "symbol": "KEYS",
+      "contract_address": "0xe0a189C975e4928222978A74517442239a0b86ff"
+    },
+    "xrp": {
+      "name": "Ripple",
+      "symbol": "XRP",
+      "contract_address": "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe"
+    },
+    "anon": {
+      "name": "Anoncoin",
+      "symbol": "ANON",
+      "contract_address": "0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c"
+    },
+    "trx": {
+      "name": "TRON",
+      "symbol": "TRX",
+      "contract_address": "0x50327c6c5a14dcade707abad2e27eb517df87ab5"
+    },
+    "ht": {
+      "name": "Huobi Token",
+      "symbol": "HT",
+      "contract_address": "0x6f259637dcd74c767781e37bc6133cd6a68aa161"
+    },
+    "giga": {
+      "name": "Giga Token",
+      "symbol": "GIGA",
+      "contract_address": "F9vMeYiZmbwzuedygr9M36ip1VaPQy1BpRUhoYUDpump"
+    },
+    "doge": {
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "contract_address": "0xba2ae424d960c26247dd6c32edc70b295c744c43"
+    },
+    "shib": {
+      "name": "Shiba Inu",
+      "symbol": "SHIB",
+      "contract_address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+    },
+    "atom": {
+      "name": "Cosmos",
+      "symbol": "ATOM",
+      "contract_address": "0x8D983cb9388EaC77af0474fA441C4815500Cb7BB"
+    },
+    "trump": {
+      "name": "Trump Coin",
+      "symbol": "TRUMP",
+      "contract_address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+    }
+  }
+}
