@@ -1,0 +1,34 @@
+{
+    "coins": [
+      {
+        "coin_name": "Fartcoin",
+        "coin_address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+        "coin_id": "fartcoin"
+      },
+      {
+        "coin_name": "Pudgy Penguins",
+        "coin_address": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
+        "coin_id": "pudgy_penguins"
+      },
+      {
+        "coin_name": "Dogwifhat",
+        "coin_address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+        "coin_id": "dogwifhat"
+      },
+      {
+        "coin_name": "AI16Z",
+        "coin_address": "HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC",
+        "coin_id": "ai16z"
+      },
+      {
+        "coin_name": "Melania",
+        "coin_address": "FUAfBo2jgks6gB4Z4LfZkqSZgzNucisEHqnNebaRxM1P",
+        "coin_id": "melania"
+      },
+      {
+        "coin_name": "Official Trump",
+        "coin_address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "coin_id": "official_trump"
+      }
+    ]
+  }

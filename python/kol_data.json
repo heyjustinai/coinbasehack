@@ -1,0 +1,186 @@
+{
+    "KOLs": [
+      {
+        "id": "aixbt_agent",
+        "handle": "@aixbt_agent",
+        "followers": 457605,
+        "coins": {
+          "fartcoin": { "mentions": 3 },
+          "dogwifhat": { "mentions": 2 }
+        }
+      },
+      {
+        "id": "blknoiz06",
+        "handle": "@blknoiz06",
+        "followers": 672957,
+        "coins": {
+          "dogwifhat": { "mentions": 1 },
+          "pudgy_penguins": { "mentions": 4 },
+          "melania": { "mentions": 2 }
+        }
+      },
+      {
+        "id": "sassal0x",
+        "handle": "@sassal0x",
+        "followers": 271418,
+        "coins": {
+          "dogwifhat": { "mentions": 4 },
+          "pudgy_penguins": { "mentions": 4 },
+          "ai16z": { "mentions": 2 },
+          "fartcoin": { "mentions": 4 }
+        }
+      },
+      {
+        "id": "jessepollak",
+        "handle": "@jessepollak",
+        "followers": 205228,
+        "coins": {
+          "official_trump": { "mentions": 5 },
+          "melania": { "mentions": 2 }
+        }
+      },
+      {
+        "id": "MustStopMurad",
+        "handle": "@MustStopMurad",
+        "followers": 690363,
+        "coins": {
+          "melania": { "mentions": 2 },
+          "ai16z": { "mentions": 5 },
+          "dogwifhat": { "mentions": 5 }
+        }
+      },
+      {
+        "id": "QwQiao",
+        "handle": "@QwQiao",
+        "followers": 159064,
+        "coins": {
+          "ai16z": { "mentions": 5 },
+          "pudgy_penguins": { "mentions": 2 },
+          "official_trump": { "mentions": 5 },
+          "fartcoin": { "mentions": 2 }
+        }
+      },
+      {
+        "id": "NTmoney",
+        "handle": "@NTmoney",
+        "followers": 64408,
+        "coins": {
+          "fartcoin": { "mentions": 1 },
+          "melania": { "mentions": 5 },
+          "dogwifhat": { "mentions": 1 }
+        }
+      },
+      {
+        "id": "a1lon9",
+        "handle": "@a1lon9",
+        "followers": 130449,
+        "coins": {
+          "ai16z": { "mentions": 5 },
+          "fartcoin": { "mentions": 3 },
+          "melania": { "mentions": 2 },
+          "official_trump": { "mentions": 5 }
+        }
+      },
+      {
+        "id": "justinsuntron",
+        "handle": "@justinsuntron",
+        "followers": 3751008,
+        "coins": {
+          "pudgy_penguins": { "mentions": 3 },
+          "dogwifhat": { "mentions": 4 }
+        }
+      },
+      {
+        "id": "Evan_ss6",
+        "handle": "@Evan_ss6",
+        "followers": 53513,
+        "coins": {
+          "official_trump": { "mentions": 3 },
+          "dogwifhat": { "mentions": 3 },
+          "melania": { "mentions": 4 },
+          "pudgy_penguins": { "mentions": 2 }
+        }
+      },
+      {
+        "id": "cryptopunk7213",
+        "handle": "@cryptopunk7213",
+        "followers": 29816,
+        "coins": {
+          "pudgy_penguins": { "mentions": 2 },
+          "melania": { "mentions": 1 },
+          "fartcoin": { "mentions": 3 }
+        }
+      },
+      {
+        "id": "balajis",
+        "handle": "@balajis",
+        "followers": 1122795,
+        "coins": {
+          "official_trump": { "mentions": 2 },
+          "fartcoin": { "mentions": 5 },
+          "ai16z": { "mentions": 4 },
+          "pudgy_penguins": { "mentions": 1 }
+        }
+      },
+      {
+        "id": "hosseeb",
+        "handle": "@hosseeb",
+        "followers": 109828,
+        "coins": {
+          "official_trump": { "mentions": 5 },
+          "melania": { "mentions": 5 },
+          "fartcoin": { "mentions": 5 },
+          "ai16z": { "mentions": 2 }
+        }
+      },
+      {
+        "id": "aeyakovenko",
+        "handle": "@aeyakovenko",
+        "followers": 507502,
+        "coins": {
+          "fartcoin": { "mentions": 5 },
+          "melania": { "mentions": 2 },
+          "ai16z": { "mentions": 2 },
+          "dogwifhat": { "mentions": 1 }
+        }
+      },
+      {
+        "id": "ASvanevik",
+        "handle": "@ASvanevik",
+        "followers": 204887,
+        "coins": {
+          "pudgy_penguins": { "mentions": 2 },
+          "dogwifhat": { "mentions": 1 }
+        }
+      },
+      {
+        "id": "ViktorBunin",
+        "handle": "@ViktorBunin",
+        "followers": 39164,
+        "coins": {
+          "pudgy_penguins": { "mentions": 1 },
+          "official_trump": { "mentions": 4 },
+          "fartcoin": { "mentions": 1 }
+        }
+      },
+      {
+        "id": "TrustlessState",
+        "handle": "@TrustlessState",
+        "followers": 231941,
+        "coins": {
+          "official_trump": { "mentions": 5 },
+          "melania": { "mentions": 2 }
+        }
+      },
+      {
+        "id": "cz_binance",
+        "handle": "@cz_binance",
+        "followers": 9554260,
+        "coins": {
+          "official_trump": { "mentions": 3 },
+          "ai16z": { "mentions": 5 },
+          "melania": { "mentions": 2 }
+        }
+      }
+    ]
+  }

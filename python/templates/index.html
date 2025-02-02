@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOL Portfolio Allocation</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .chart-container {
+            position: relative;
+            height: 400px;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .allocation-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .allocation-table th, .allocation-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .allocation-table th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+        .allocation-table tr:hover {
+            background-color: #f5f5f5;
+        }
+        .address {
+            font-family: monospace;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .address a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .address a:hover {
+            text-decoration: underline;
+        }
+        .nav-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .nav-info h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .nav-info p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .nav-value {
+            font-weight: bold;
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>KOL Portfolio Allocation</h1>
+        
+        <div class="nav-info">
+            <h2>Portfolio Overview</h2>
+            <p>Net Asset Value (NAV): <span class="nav-value">${{ portfolio_data.nav }}</span></p>
+            <p>Total Value: <span class="nav-value">${{ portfolio_data.total_value }}</span></p>
+            <p>Liabilities: <span class="nav-value">${{ portfolio_data.liabilities }}</span></p>
+            <p>Shares Outstanding: <span class="nav-value">{{ portfolio_data.shares_outstanding }}</span></p>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="allocationChart"></canvas>
+        </div>
+        
+        <table class="allocation-table">
+            <thead>
+                <tr>
+                    <th>Coin</th>
+                    <th>Allocation (%)</th>
+                    <th>Price</th>
+                    <th>Value</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody id="allocationTableBody">
+                {% for coin in portfolio_data.coins %}
+                {% set coin_data = portfolio_data.holdings_value.get(coin.name.lower(), {}) %}
+                <tr>
+                    <td>{{ coin.name }}</td>
+                    <td>{{ coin.allocation }}%</td>
+                    <td>${{ coin_data.price }}</td>
+                    <td>${{ coin_data.value }}</td>
+                    <td class="address">
+                        <a href="https://solscan.io/token/{{ coin.address }}" target="_blank">
+                            {{ coin.address }}
+                        </a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        const portfolioData = {{ portfolio_data | tojson | safe }};
+
+        // Generate random colors for the chart
+        function generateColors(count) {
+            const colors = [];
+            for (let i = 0; i < count; i++) {
+                const hue = (i * 360) / count;
+                colors.push(`hsl(${hue}, 70%, 60%)`);
+            }
+            return colors;
+        }
+
+        // Create the pie chart
+        const ctx = document.getElementById('allocationChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: portfolioData.coins.map(coin => coin.name),
+                datasets: [{
+                    data: portfolioData.coins.map(coin => coin.allocation),
+                    backgroundColor: generateColors(portfolioData.coins.length),
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'right',
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                const coin = portfolioData.coins[context.dataIndex];
+                                return `${coin.name}: ${coin.allocation}%`;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

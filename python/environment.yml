@@ -1,0 +1,16 @@
+name: coinbasehack
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - flask==3.1.0
+    - python-dotenv==1.0.1
+    - numpy==2.2.2
+    - moralis==0.1.49
+    - web3==7.7.0
+    - requests==2.32.3
+    - werkzeug==3.1.3
+    - jinja2==3.1.5
